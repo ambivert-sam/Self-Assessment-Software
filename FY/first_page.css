@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+  }
+  .navbar {
+    background-color: #438a91;
+    color: #fff;
+    height: 80px;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+  }
+  
+  .name {
+    text-align: center;
+    font-size: 120%;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  
+  .student,
+  .admin {
+    padding-right: 10%;
+    padding-top: 10%;
+  }
+  .profile {
+    padding-top: 8%;
+    padding-left: 20%;
+    text-decoration: none;
+  }
+  
+  ul {
+    padding-left: 40%;
+  }
+  .navbar a {
+    margin-top: 15%;
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    
+  }
+  
+  .logo {
+    width: 4%;
+    padding: 8px;
+    margin-left: 5px;
+    height: 80%;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+  }
+  .navbar .name:hover {
+    border-bottom: 2px #fff solid;
+  }
+  
+  .navbar .flex {
+    justify-content: space-between;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 10px;
+  
+    padding: 0 15px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  ul {
+    list-style-type: none;
+  }
+  h1 {
+    font-size: 60px;
+    padding-left: 5%;
+    font-family: "Noto Serif Display", serif;
+  }
+  .girl {
+    padding-top: 4.5%;
+    float: right;
+    height: 65%;
+    margin-left: 100px;
+    margin-right:80px ;
+  }
+  
+  h3 {
+    padding-left: 3.5%;
+    font-family: sans-serif;
+    color: rgb(33, 33, 33);
+  }
+  .button,
+  .button2 {
+    margin-top: 2%;
+    margin-left: 6%;
+    text-shadow: rgb(102, 102, 102) 1px 1px 3px;
+    font-family: Georgia;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background: linear-gradient(rgb(67, 138, 145), rgb(121, 180, 183))
+      rgb(67, 138, 145);
+    border-radius: 28px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .button:hover,
+  .button2:hover {
+    background: #6d9886;
+  }

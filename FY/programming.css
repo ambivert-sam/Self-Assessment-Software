@@ -1,0 +1,135 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.navbar {
+  background-color: #438a91;
+  color: #fff;
+  height: 70px;
+}
+
+.name {
+  text-align: center;
+  font-size: 120%;
+}
+.navbar ul {
+  display: flex;
+}
+
+.student,
+.admin {
+  padding-right: 10%;
+  padding-top: 10%;
+}
+.profile {
+  padding-top: 8%;
+  padding-left: 20%;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 40%;
+}
+.navbar a {
+  margin-top: 15%;
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.logo {
+  width: 3%;
+  padding: 8px;
+  margin-left: 5px;
+  height: 80%;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.navbar .name:hover {
+  border-bottom: 2px #fff solid;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 10px;
+
+  padding: 0 15px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  padding-top: 40px;
+  color: #fff;
+  font-size: 40px;
+  padding-left: 5%;
+  font-family: "Raleway", sans-serif;
+}
+.program {
+  padding-right: 7%;
+  /* padding-bottom: 6%; */
+  float: right;
+  height: 50%;
+  width: 40%;
+  margin-left: 15px;
+}
+
+h3 {
+  padding-left: 3.5%;
+  font-family: sans-serif;
+  color: rgb(33, 33, 33);
+}
+.top {
+  background-color: #438a91;
+}
+.type {
+  padding-bottom: 10%;
+}
+.learn {
+  padding-left: 400px;
+  font-size: 30px;
+  padding-bottom: 35px;
+  color: #000;
+}
+.web {
+  padding-left: 150px;
+  font-size: 30px;
+  padding-bottom: 35px;
+  color: #000;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  float: left;
+  margin-left: 55px;
+  border-style: round;
+  border-radius: 15px;
+}
+.card:hover {
+  background-color: #fdf6f0;
+}
+
+.language {
+  padding-bottom: 52px;
+  margin-left: 14%;
+}
+.language2 {
+  padding-top: 120px;
+  margin-left: 30%;
+}

@@ -1,0 +1,75 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 300%;
+  text-align: center;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+}
+.bg {
+  border-bottom-left-radius: 80px 40px;
+  border-bottom-right-radius: 80px 40px;
+  background-color: #438a91;
+  padding-top: 2%;
+}
+/* CARDS */
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cards {
+  padding-top: 25px;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  margin-left: 12px;
+  margin-right: 12px;
+  background-color: #77e4d4;
+  margin-top: 40px;
+  border: 0 solid;
+  border-radius: 8px;
+  box-shadow: 4px 5px #eeeeee;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.card:hover {
+  background-color: #fdf6f0;
+}
+h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.topics {
+  text-decoration: none;
+  color: black;
+}
